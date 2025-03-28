@@ -10,11 +10,11 @@
         if (!network.ContainsKey(name))
         {
             network[name] = new List<string>();
-            System.Console.WriteLine($"{name} has been added");
+            System.Console.WriteLine($"{name} has been added.");
         }
         else
         {
-            System.Console.WriteLine($"{name} already exists");
+            System.Console.WriteLine($"{name} already exists.");
         }
     }
 
